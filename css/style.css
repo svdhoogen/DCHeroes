@@ -1,0 +1,412 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+body {
+    margin: 0px;
+    background-color: rgb(158, 200, 255);
+    overflow: hidden;
+}
+
+body h1, h2, h3, h3, h4, h5, h6, p, textarea {
+    font-family: verdana;
+    color: black;
+}
+
+.clearDiv {
+    clear: both;
+}
+
+/*#region Default scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 95, 219);
+    }
+/*#endregion */
+
+/*#region header */
+    .main-header {
+        width: 1903px;
+        height: 136px;
+        padding-right: 17px;
+        background-color: rgb(78, 155, 255);
+        overflow: hidden;
+    }
+
+    .main-header img {
+        margin: 4px;
+        height: 128px;
+    }
+
+    .main-header img:hover {
+        background-color: rgb(100, 156, 230);
+    }
+/*#endregion */
+
+/*#region team-select */
+    #team-select {
+        height: 833px;
+        width: 380px;
+        float: left;
+        background-color: rgb(158, 200, 255);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    #team-select ul {
+        list-style-type: none;
+        -webkit-padding-start: 0;
+        -moz-padding-start: 0;
+    }
+
+    #team-select h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: 8px;
+    }
+
+    .team-field {
+        width: 354px;
+        height: 128px;
+        margin: 8px;
+        float: left;
+        background-color: rgb(78, 155, 255);
+    }
+
+    .team-field h2 {
+        float: left;
+        width: 234px;
+        font-size: 24px;
+        margin: 4px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .team-field img {
+        float: right;
+        width: 120px;
+        height: 120px;
+        margin-right: 4px;
+        margin-top: 4px;
+    }
+
+    .team-field:hover {
+        background-color: rgb(131, 180, 243);
+    }
+
+    .team-description {
+        float: left;
+        font-size: 12px;
+        margin: 2px;
+        overflow: auto;
+        float: left;
+        height: 91px;
+    }
+
+    .team-description::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .team-text {
+        float: left;
+        overflow: hidden;
+        width: 230px;
+        height: 128px;
+    }
+/*#endregion */
+
+/*#region individual-select */
+    #individual-select {
+        height: 833px;
+        width: 571px;
+        float: left;
+        background-color: rgb(78, 155, 255);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .individual-player {
+        background-color: rgb(118, 178, 255);
+        height: 255px;
+        width: 545px;
+        margin: 8px;
+    }
+
+    .individual-player:hover {
+        background-color: rgb(127, 173, 233);
+    }
+
+    .individual-player:nth-of-type(odd) {
+        background-color: rgb(158, 200, 255);
+    }
+
+    .individual-player:hover:nth-of-type(odd) {
+        background-color: rgb(149, 185, 233);
+    }
+
+    .individual-player img {
+        float: right;
+        height: 255px;
+        width: 245px;
+        margin: 0px;
+    }
+
+    .individual-textfield {
+        width: 300px;
+        height: 255px;
+        float: left;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    .individual-textfield h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .individual-description {
+        float: left;
+        font-size: 12px;
+        margin: 2px;
+        overflow: auto;
+        float: left;
+        height: 150px;
+    }
+
+    .individual-button {
+        width: 280px;
+        height: 35px;
+        margin: 10px;
+        background-color: rgb(62, 146, 255);
+        border: 0px;
+        font-size: 24px;
+    }
+
+    .individual-button:hover {
+        background-color: rgb(24, 124, 255);
+        cursor: pointer;
+    }
+
+    .individual-description::-webkit-scrollbar {
+        width: 6px;
+    }
+/*#endregion */
+
+/*#region individual-content */
+    #individual-content {
+        height: 833px;
+        width: 969px;
+        float: left;
+        background-color: rgb(158, 200, 255);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .content-player-image {
+        width: 400px;
+        height: 417px;
+        float: right;
+    }
+
+    #individual-content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #individual-content h3 {
+        font-size: 24px;
+        margin-left: 24px;
+        margin-bottom: 8px;
+    }
+    
+    #individual-content h5 {
+        font-size: 16px;
+        margin-left: 24px;
+        margin-bottom: 8px;
+    }
+
+    #individual-content h6 {
+        font-size: 20px;
+        margin: 8px;
+        color: red;
+    }
+
+    .content-description {
+        font-size: 18px;
+        margin: 24px;
+        margin-top: 0px;
+    }
+
+    .content-statisticDesc {
+        width: 175px;
+        float: left;
+        font-size: 18px;
+        margin: 0px;
+        margin-left: 24px;
+    }
+
+    .content-statistics {
+        width: 128px;
+        float: left;
+        font-size: 18px;
+        margin: 0px;
+        margin-right: 225px;
+        text-align: right;
+    }
+
+    #content-vote {
+        height: 285px;
+        width: 528px;
+        float: left;
+        margin-left: 24px;
+    }
+
+    #content-comment {
+        width: 952px;
+        float: left;
+    }
+
+    #content-commentInput {
+        width: 443px;
+        height: 156px;
+        float: left;
+        resize: none;
+        padding: 0px;
+        margin: 24px;
+        margin-top: 16px;
+        margin-right: 490px;
+    }
+
+    #content-commentButton {
+        font-size: 24px;
+        float: left;
+        width: 445px;
+        height: 36px;
+        background-color: rgb(62, 146, 255);
+        border: 0px;
+        margin-left: 24px;
+        margin-bottom: 24px;
+    }
+
+    #content-commentButton:hover {
+        background-color: rgb(24, 124, 255);
+        cursor: pointer;
+    }
+
+    .content-comments {
+        width: 443px;
+        min-height: 215px;
+        float: left;
+        background-color: rgb(78, 155, 255);
+        margin: 24px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    
+    .content-comments h4 {
+        font-size: 14px;
+        margin: 12px;
+        float: left;
+    }
+
+    .content-comments img {
+        float: left;
+        width: 20px;
+        margin-top: 12px;
+    }
+
+    #h5-Rating {
+        float: left;
+        margin-top: 8px;
+    }
+
+    #img-rating {
+        float: left;
+        width: 20px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    
+    .content-comments p {
+        font-size: 12px;
+        margin: 12px;
+        white-space: pre-wrap;      /* Make sure text without spaces doesn't flow outside div but gets posted to next line. Version: CSS3 */   
+        white-space: -moz-pre-wrap; /* Firefox */    
+        white-space: -pre-wrap;     /* Opera <7 */   
+        white-space: -o-pre-wrap;   /* Opera 7 */    
+        word-wrap: break-word;      /* IE */
+    }
+
+    .clearDiv2 {
+        clear: both;
+        margin-bottom: 128px;
+    }
+/*#endregion */
+
+/*#region rate */
+    .rate
+    {
+        display: inline-block;
+        border: 0;
+        float: left;
+    }
+
+    /* hide radio buttonns */
+    .rate > input[type='radio']
+    {
+        display: none;
+    }
+
+    /* order correctly by floating the labels highest to the right */
+    .rate > label.lblRating
+    {
+        float: right;
+    }
+
+    /* the star of the show */
+    .rate > label.lblRating:before
+    {
+        display: inline-block;
+        font-size: 4.0rem;
+        padding: .3rem .2rem;
+        margin: 0;
+        cursor: pointer;
+        font-family: FontAwesome;
+        content: "\f005 "; /* full star */
+    }
+
+    /* zero stars rating */
+    .rate > label.lblRating:last-child:before
+    {
+        content: "\f006 "; /* empty star outline */
+    }
+    /* half star trick */
+    .rate label.half:before
+    {
+        content: "\f089 "; /* half star no outline */
+        margin-right: -38px;
+    }
+    /* click + hover color */
+    input:checked ~ label.lblRating, /* color current and previous stars on checked */
+    label.lblRating:hover, label.lblRating:hover ~ label.lblRating /* color previous stars on hover */
+    { 
+        color: #ffd900;
+    } 
+
+    /* hover highlights */
+    input:checked + label.lblRating:hover, input:checked ~ label.lblRating:hover, /* highlight current and previous stars */
+    input:checked ~ label.lblRating:hover ~ label.lblRating, /* highlight previous selected stars for new rating */
+    label.lblRating:hover ~ input:checked ~ label.lblRating /* highlight previous selected stars */
+    {
+        color: #f0cc00; 
+    }
+/*#endregion */
